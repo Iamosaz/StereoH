@@ -1,0 +1,68 @@
+.hero{
+  min-height: 100vh;
+  width: 100%;
+  background: url('../Assets/cds.webp');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+.hero-text{
+  padding-top: 50px;
+  max-width: 800px;
+  text-align: center;
+}
+.hero-text h1{
+  font-size: 57px;
+  font-weight: 768;
+  color: rgb(4, 126, 171);
+  border-bottom: 4px solid #ffffff;
+  padding: 20px 120px;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+ .hero-text h5{
+  font-size: 24px;
+  font-weight: 650;
+  color: rgba(211, 75, 12, 0.838);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: flex;
+  margin-left: 28px;
+  margin-top: 10px;
+}
+.hero-text p{
+  width: 100%;
+  max-width: 780px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 28px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}  
+.btn{
+  display: inline-flex;
+  padding: 18px 80px;
+  background: #ffffff;
+  color: black;
+  font-size: 26px;
+  font-weight:500;
+  border-radius: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all .5s;
+  align-items: center;
+  justify-content: center;
+}
+.btn:hover{
+  transform: scale(0.9) translateY(-6px);
+  border: 2px solid var(--text-color);
+}
+.btn img{
+  width: 30px;
+  margin-left: 10px;
+}

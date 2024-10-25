@@ -1,0 +1,25 @@
+.title{
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 70px 0 30px;
+}
+.title h2{
+  font-size: 32px;
+  color:  rgb(4, 126, 171);
+  margin-top: 16px;
+}
+.title p{
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 6px;
+}
+.title h6{
+  text-transform: none;
+  max-width: 100%;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 14px;
+}
