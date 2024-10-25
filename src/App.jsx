@@ -1,12 +1,10 @@
 import React from 'react';
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MonetizeLayout from './layout/MonetizeLayout';
 import AboutLayout from './layout/AboutLayout';
 import SharedLayout from './SharedLayout';
 import Homepage from './Homepage';
 import AboutInfo from './Components/AboutInfo/AboutInfo';
-
 import MusicProduction from './Components/Musicproduction/MusicProduction';
 import Distribution from './Components/Distribution/Distribution';
 
@@ -22,7 +20,7 @@ const App = () => {
           <Route path="/monetize" element={<MonetizeLayout />}></Route>
           <Route path="/about" element={<AboutLayout />}>
           </Route>
-              <Route path="Aboutinfo"  element={<AboutInfo/>}/>
+              <Route path="info"  element={<AboutInfo/>}/>
           <Route path="musicproduction" element={<MusicProduction/>}/>
           <Route path="distribution" element={<Distribution/>}/>
           </Route>
