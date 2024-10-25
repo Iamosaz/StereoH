@@ -1,8 +1,6 @@
 import React from 'react';
-import Navbar from './Components/Navbar/Navbar';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Footer from './Components/Footer/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MonetizeLayout from './layout/MonetizeLayout';
 import AboutLayout from './layout/AboutLayout';
 import SharedLayout from './SharedLayout';
