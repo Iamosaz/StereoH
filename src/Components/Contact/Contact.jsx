@@ -5,7 +5,7 @@ import mail_icon from '../Assets/mail-icon.png';
 import phone_icon from '../Assets/phone-icon.png';
 import white_arrow from '../Assets/white-arrow.png';
 
-const Contact = ({ contactRef }) => {  // Receive contactRef as prop
+const Contact = () => {  // Receive contactRef as prop
   const [formData, setFormData] = useState({ name: '', phone: '', message: '' });
   const [status, setStatus] = useState({ submitting: false, succeeded: false, errors: [] });
 
@@ -42,7 +42,7 @@ const Contact = ({ contactRef }) => {  // Receive contactRef as prop
   };
 
   return (
-    <div className='contact' ref={contactRef} id='login'>
+    <div className='contact'>
       <div className='contact-col'>
         <h3>Send us a message <img src={msg_icon} alt='message icon' /></h3>
         <p>Feel free to reach out through our contact form or find our information below. Your feedback, questions, and suggestions are valued as we strive to provide exceptional services to our music community.</p>

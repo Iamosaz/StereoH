@@ -1,5 +1,5 @@
 .about{
-  margin: 100px auto;
+  margin: 130px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,7 +15,7 @@
   width: 90%;
 }
 .about h3{
-  margin-top: 50px;
+  margin-top: 30px;
   font-weight: 600;
   font-size: 18px;
   line-height: 2;
@@ -33,7 +33,13 @@
   font-size: 18px;
 }
 .about-btn{
-padding: 10px;
-margin-top: 20px;
-  
+ padding: 10px;
+ margin-top: 20px;
+font-size: 18px;
+font-weight: 500;
+background: #fff;
+cursor: pointer;
+}
+.about-btn:hover{
+  background: #3d4483;
 }

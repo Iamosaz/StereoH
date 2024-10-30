@@ -1,12 +1,13 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Services from '../Components/Services/Services';
+
+import Monetization from '../Components/Monetization/Monetization';
 
 const MonetizeLayout = () => {
   return (
     <div>
       {/* This Outlet will render the child components based on the route */}
-      <Services/>
+      <Monetization/>
       <Outlet />
     </div>
   );

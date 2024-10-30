@@ -7,6 +7,8 @@ import Homepage from './Homepage';
 import AboutInfo from './Components/AboutInfo/AboutInfo';
 import MusicProduction from './Components/Musicproduction/MusicProduction';
 import Distribution from './Components/Distribution/Distribution';
+import Contact from './Components/Contact/Contact';
+
 
 const App = () => {
   return (
@@ -18,11 +20,11 @@ const App = () => {
           <Route index element={<Homepage/>}/>
           {/* Monetize Layout with Nested Route */}
           <Route path="/monetize" element={<MonetizeLayout />}></Route>
-          <Route path="/about" element={<AboutLayout />}>
-          </Route>
+          <Route path="/about" element={<AboutLayout />}></Route>
               <Route path="info"  element={<AboutInfo/>}/>
           <Route path="musicproduction" element={<MusicProduction/>}/>
           <Route path="distribution" element={<Distribution/>}/>
+          <Route path="contact" element={<Contact/>}/>
           </Route>
         </Routes>
        

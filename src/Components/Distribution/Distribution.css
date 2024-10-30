@@ -1,0 +1,43 @@
+.distribution{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #060817;
+    background-size: cover;
+    background-position: center;
+  } 
+
+  .distribution-left{
+    flex-basis: 40%;
+    padding: 7%;
+  }
+ 
+  .distribution-right{
+    flex-basis: 60%;
+    padding: 7%;
+  }
+  .distribution img{
+    width: 140%;
+  }
+  .distribution h1{
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin: 10px;
+    color: #ffff;
+    margin-top: 10px;
+    max-width: 400px;
+  }
+  .distribution h2{
+    margin-top: 80px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 2px;
+    color: #212ea0;
+  }
+  .distribution p{
+    color: #ffff;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }

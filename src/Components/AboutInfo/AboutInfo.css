@@ -1,0 +1,30 @@
+.about-publishing{
+  margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:skyblue;
+    background-size: cover;
+    background-position: center;
+}
+
+.publishing-left{
+  flex-basis: 40%;
+  padding: 7%;
+}
+
+.publishing-right{
+  flex-basis: 60%;
+  padding: 7%;
+}
+.publishing img{
+  width: 140%;
+}
+.publishing-left h1{
+  letter-spacing: 3px;
+  font-size: 25px;
+  margin: 10px;
+  color: #ffff;
+  margin-top: 10px;
+  max-width: 400px;
+}

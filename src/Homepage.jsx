@@ -12,9 +12,9 @@ const Homepage = () => {
               <Title subTitle='Our SERVICES' title='"Your Music, Our Priority"' titleh2='We offer a range of services designed to support songwriters, composers, and artists.' />
               <Services />
               <About />
-              <Title subTitle='TESTIMONIALS' title='What STEREOKHART LLC Users Say' />
+              <Title subTitle='TESTIMONIALS' title='What STEREOKHART LLC Users Say'  />
               <Testimonials />
-              <Title subTitle='Contact Us' title='STEREOKHART LLC' />
+              <Title subTitle='Contact Us' title='STEREOKHART LLC' id={"login"}  />
               <Contact /> 
     </div>
   )
