@@ -42,8 +42,8 @@ const handleLinkClick = (menuName) => {
   return (
     <nav className='navbar' style={{backgroundColor:navColor}}>
       <div className='nav-logo'>
-
-      <img src={logo} alt='brand-logo' />
+        <a href='/'> <img src={logo} alt='brand-logo' /></a>
+     
       </div>
       <ul className="nav-menu">
         <li onClick={()=>{setMenu("home")}}><Link to='/'>Home</Link> {menu==="home"?<hr/>:<></>}</li>

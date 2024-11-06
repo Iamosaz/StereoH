@@ -13,6 +13,8 @@
 }
 .about-img{
   width: 90%;
+  max-width: 87vw;
+  min-width: 100px;
 }
 .about h3{
   margin-top: 30px;
@@ -43,3 +45,16 @@ cursor: pointer;
 .about-btn:hover{
   background: #3d4483;
 }
+
+  /* small */
+  @media (max-width: 768px) {
+    .about{
+      display: flex;
+      flex-direction: column;
+    }
+    .about-left{
+      margin: 20px;
+      order: 2;
+    }
+  
+  }

@@ -74,12 +74,13 @@
 .mobile{
   display: none;
 }
-@media (min-width:320px ) and (max-width: 1200px) {
+.nav-menu-open{
+  display: none;
+}
+@media (min-width:320px ) and (max-width: 1050px) {
   .nav-login{
     display: none;
   }
-/*   
-}
 /* Media Query for small screens */
 /* @media (max-width: 768px) { */ */
   .nav-login button{
@@ -130,17 +131,20 @@
   }
   .nav-menu-open {
     display: flex;
-    background-color: black;
+    background-color: rgb(187, 178, 178);
     flex-direction: column;
-    padding: 1rem;
+    padding: 40px 15px;
     position:fixed;
     width: 100%;
-    top: 11%;
+    top: 77.9px;
     gap: 40px;
+    margin-left: -40px;
     height: 100vh;
+    transition: 0.5s;
   } 
 
    .nav-toggle {
     display: block;
   }
 }
+

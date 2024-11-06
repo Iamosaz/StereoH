@@ -1,5 +1,6 @@
 .distribution{
     margin: auto;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,23 +18,26 @@
     flex-basis: 60%;
     padding: 7%;
   }
-  .distribution img{
-    width: 140%;
+  .distribution-left img{
+    width: auto;
+    max-width: 87vw;
+    min-width: 100px;
   }
   .distribution h1{
     letter-spacing: 3px;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
     margin: 10px;
     color: #ffff;
     margin-top: 10px;
     max-width: 400px;
   }
   .distribution h2{
-    margin-top: 80px;
+    margin-top: 30px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 2;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     color: #212ea0;
   }
   .distribution p{
@@ -41,3 +45,13 @@
     margin-bottom: 15px;
     font-size: 18px;
   }
+
+  /* small */
+@media (max-width: 768px) {
+  .distribution{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}

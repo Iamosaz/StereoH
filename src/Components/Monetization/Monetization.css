@@ -1,6 +1,7 @@
 .monetization{
   margin: auto;
     display: flex;
+    margin-top: 30px;
     align-items: center;
     justify-content: space-between;
     background-color:rgb(236, 240, 241)
@@ -14,7 +15,7 @@
   margin-top: 70px;
 }
 .monetize-left{
-  flex-basis: 40%;
+  flex-basis: 55%;
   padding: 7%;
 }
 .monetize-left h3{
@@ -23,11 +24,13 @@
   font-size: 16px;
 }
 .monetize-right{
-  flex-basis: 60%;
+  flex-basis: 55%;
   padding: 7%;
 }
 .monetize-left img{
-  width: 140%;
+  width: auto;
+  max-width: 87vw;
+  min-width: 100px;
   border: 20px solid #7c827f;
 }
 .monetize-right h4{
@@ -37,4 +40,15 @@
   color: rgb(8, 156, 50);
   text-decoration: underline;
 }
+
+
+  /* small */
+  @media (max-width: 768px) {
+    .monetization{
+      display: flex;
+      flex-direction: column;
+    }
+  
+  
+  }
 

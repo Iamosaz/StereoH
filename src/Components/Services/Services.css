@@ -42,3 +42,14 @@
    opacity: 1;
    padding-top: 0;
 }
+
+@media (max-width: 760px) {
+   .services{
+    flex-direction: column;
+   }
+   .service{
+     flex-basis: 100%;
+     margin: 20px;
+     padding: auto;
+   }
+}

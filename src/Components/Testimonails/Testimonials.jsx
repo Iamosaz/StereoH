@@ -13,19 +13,22 @@ const Testimonials = () => {
 
             const slider = useRef();
             let tx = 0;
-
-      const slideForward = ()=>{
-            if(tx > -50){
-               tx -= 20;
-            }
-            slider.current.style.transform = `translateX(${tx}%)`;
-      }
-      const slideBackward = ()=>{
-        if(tx < 0){
-          tx += 20;
-       }
-       slider.current.style.transform = `translateX(${tx}%)`;
-      }
+            const slideWidth = window.innerWidth <= 768 ? 100 : 20; // Slide 100% for small screens, 20% for large
+          
+            const slideForward = () => {
+              if (tx > -((5 - 1) * slideWidth)) { // Adjust range based on number of slides and screen width
+                tx -= slideWidth;
+                slider.current.style.transform = `translateX(${tx}%)`;
+              }
+            };
+          
+            const slideBackward = () => {
+              if (tx < 0) {
+                tx += slideWidth;
+                slider.current.style.transform = `translateX(${tx}%)`;
+              }
+            };
+          
   
   return (
     <div className='testimonials'>

@@ -61,7 +61,7 @@ const Monetization = () => {
         <div>
           <br/>
           <br/>
-          <h1>Our Publishing Partners</h1>
+          {/* <h1>Our Publishing Partners</h1> */}
         </div>
        
       </div>
