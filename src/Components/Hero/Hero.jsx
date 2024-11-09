@@ -9,7 +9,7 @@ const Hero = () => {
           <h1>STEREOKHART LLC</h1>
           <h5>Monetize Your Creativity,</h5>
           <h5>License Your Sound.</h5>
-          <p>In today's digital landscape, music publishing requires innovative solutions and adaptability.   STEROKHART stays ahead of the curve, utilizing cutting-edge technology to streamline licensing, royalty tracking, and copyright protection. Our forward-thinking approach enables us to maximize revenue opportunities for our clients, while ensuring their creative work remains protected. Join us in shaping the future of music publishing.</p>
+          <p>In today's digital landscape, music publishing requires innovative solutions and adaptability.   STEREOKHART stays ahead of the curve, utilizing cutting-edge technology to streamline licensing, royalty tracking, and copyright protection. Our forward-thinking approach enables us to maximize revenue opportunities for our clients, while ensuring their creative work remains protected. Join us in shaping the future of music publishing.</p>
           <button className='btn'>Get started<img src={arrow} alt='' /></button>
        </div>
     </div>

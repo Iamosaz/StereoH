@@ -57,6 +57,7 @@
 /* small */
 @media (max-width: 768px) {
   .about-publishing{
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
   }

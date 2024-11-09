@@ -6,7 +6,7 @@ import user_1 from '../Assets/user-1.png'
 import user_2 from '../Assets/scahlett1.jpg'
 import user_3 from '../Assets/naughtyG.jpg'
 import user_4 from '../Assets/jigi.jpg'
-import user_5 from '../Assets/jayw.jpg'
+import user_5 from '../Assets/Ellies.jpg'
 
 
 const Testimonials = () => {
@@ -69,7 +69,7 @@ const Testimonials = () => {
                  <div className='user-info'>
                    <img src={user_3} alt='' />
                    <div>
-                     <h3>Naughty Beat</h3>
+                     <h3>Naughtybeatz</h3>
                      <span>Music Producer</span>
                    </div>
                  </div>
@@ -82,7 +82,7 @@ const Testimonials = () => {
                  <div className='user-info'>
                    <img src={user_4} alt='' />
                    <div>
-                     <h3>Jigi G</h3>
+                     <h3>Macjreyz</h3>
                      <span>Artiste</span>
                    </div>
                  </div>
@@ -95,7 +95,7 @@ const Testimonials = () => {
                  <div className='user-info'>
                    <img src={user_5} alt='' />
                    <div>
-                     <h3>Jay W</h3>
+                     <h3>Ellie</h3>
                      <span>Artiste</span>
                    </div>
                  </div>

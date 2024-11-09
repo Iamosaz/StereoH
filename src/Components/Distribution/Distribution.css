@@ -49,6 +49,7 @@
   /* small */
 @media (max-width: 768px) {
   .distribution{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
   }
