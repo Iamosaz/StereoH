@@ -100,7 +100,7 @@ const Testimonials = () => {
                    </div>
                  </div>
                   <p>
-               Stereokhare has major role to play in my music growth,my major break in music as an artiste came as a major gobal music of mine was produced and handle by the big hands in music production industry through them. ​​</p>
+                  STEREOKHART LLC has major role to play in my music growth,my major break in music as an artiste came as a major gobal music of mine was produced and handle by the big hands in music production industry through them. ​​</p>
               </div>
            </li>
          </ul>
