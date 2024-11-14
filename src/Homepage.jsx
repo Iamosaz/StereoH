@@ -14,7 +14,7 @@ const Homepage = () => {
               <About />
               <Title subTitle='TESTIMONIALS' title='What STEREOKHART LLC Users Say'  />
               <Testimonials />
-              <Title subTitle='Contact Us' title='STEREOKHART LLC' id={"login"}  />
+              <Title subTitle='Contact Us' title='STEREOKHART LLC' id={"contact"}  />
               <Contact /> 
     </div>
   )

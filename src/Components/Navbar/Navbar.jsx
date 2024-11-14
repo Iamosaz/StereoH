@@ -55,7 +55,7 @@ const handleLinkClick = (menuName) => {
         <li  onClick={()=>{setMenu("musicproduction")}}><Link to='/musicproduction'>Music Production</Link> {menu==="musicproduction"?<hr/>:<></>}</li>
       </ul>
       <div className='nav-login'>
-       <a href='#login' to='/login'> <button>Contact Us</button> </a>
+       <a href='#contact'> <button>Contact Us</button> </a>
       </div>
 
  <div className="nav-toggle" onClick={toggleMenu}>
