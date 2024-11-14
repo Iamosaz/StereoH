@@ -9,26 +9,24 @@ import user_4 from '../Assets/jigi.jpg'
 import user_5 from '../Assets/Ellies.jpg'
 
 
-const Testimonials = () => {
 
-            const slider = useRef();
-            let tx = 0;
-            const slideWidth = window.innerWidth <= 768 ? 100 : 20; // Slide 100% for small screens, 20% for large
-          
-            const slideForward = () => {
-              if (tx > -((5 - 1) * slideWidth)) { // Adjust range based on number of slides and screen width
-                tx -= slideWidth;
-                slider.current.style.transform = `translateX(${tx}%)`;
-              }
-            };
-          
-            const slideBackward = () => {
-              if (tx < 0) {
-                tx += slideWidth;
-                slider.current.style.transform = `translateX(${tx}%)`;
-              }
-            };
-          
+const Testimonials = () => {
+  const slider = useRef();
+  const totalSlides = 5; // Number of testimonials
+  const slideWidth = window.innerWidth <= 768 ? 100 : 20; // 100% for small screens, 20% for large
+  let tx = 0;
+
+  const slideForward = () => {
+    const maxTx = -(totalSlides - 1) * slideWidth;
+    tx = Math.max(tx - slideWidth, maxTx); // Ensure we don't go past the last slide
+    slider.current.style.transform = `translateX(${tx}%)`;
+  };
+
+  const slideBackward = () => {
+    tx = Math.min(tx + slideWidth, 0); // Ensure we don't go past the first slide
+    slider.current.style.transform = `translateX(${tx}%)`;
+  };
+ 
   
   return (
     <div className='testimonials'>
@@ -100,7 +98,7 @@ const Testimonials = () => {
                    </div>
                  </div>
                   <p>
-                  STEREOKHART LLC has major role to play in my music growth,my major break in music as an artiste came as a major gobal music of mine was produced and handle by the big hands in music production industry through them. ​​</p>
+                  STEREOKHART LLC git has major role to play in my music growth,my major break in music as an artiste came as a major gobal music of mine was produced and handle by the big hands in music production industry through them. ​​</p>
               </div>
            </li>
          </ul>
